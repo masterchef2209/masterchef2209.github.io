@@ -1,4 +1,3 @@
-
    <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -10,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{% if page.layout == 'blog_post' %}{{site.url}}{% endif %}#page-top">{{ site.title }}</a>
+                <a class="navbar-brand" href="#page-top">{{ site.title }}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -20,16 +19,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="{% if page.layout == 'blog_post' %}{{site.url}}{% endif %}#portfolio">Portfolio</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="{% if page.layout == 'blog_post' %}{{site.url}}{% endif %}#about">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="{% if page.layout == 'blog_post' %}{{site.url}}{% endif %}#blog">Thoughts</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="{% if page.layout == 'blog_post' %}{{site.url}}{% endif %}#contact">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>

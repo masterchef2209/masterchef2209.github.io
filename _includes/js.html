@@ -20,10 +20,7 @@
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/freelancer.js" }}"></script>
 
-    <!-- billmartin.io customizations -->
-    <script src="{{ "/js/custom.js" }}"></script>
-
-    {% if site.contact == "disqus" or site.disqus_shortname != "myshortname" %}
-        <!-- Disqus Stuff -->
-        {% include js_disqus.html %}
+    {% if site.contact == "disqus" %}
+    <!-- Disqus Stuff -->
+    {% include js_disqus.html %}
     {% endif %}
