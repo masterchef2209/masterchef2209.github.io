@@ -7,6 +7,6 @@ alt: image-alt
 project-date: December 2017
 client: 
 category: Unity3D,C#,Game
-description: [Link](https://github.com/masterchef2209/Unity3DClock) Analog clock which shows system time
+description: Analog clock which shows system time (https://github.com/masterchef2209/Unity3DClock)
 
 ---
