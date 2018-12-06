@@ -4,9 +4,9 @@ modal-id: 1
 date: 2014-07-18
 img: cabin.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description:
+project-date: December 2017
+client: 
+category: Unity3D,C#,Game
+description: Analog clock which shows system time
 
 ---
