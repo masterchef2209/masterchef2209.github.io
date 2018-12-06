@@ -16,14 +16,7 @@
                         <ul class="list-inline">
                             {% for network in site.social %}
                             <li>
-                                {% if network.title == "codeforces" %}
-                                    <a href="{{ network.url }}" class="btn-social btn-outline btn-codeforces">CF</a>
-                                {% elsif network.title == "codechef" %}
-                                    <a href="{{ network.url }}" class="btn-social btn-outline btn-codechef">CC</a>                                    
-                                {% elsif network.title == "kaggle" %}
-                                    <a href="{{ network.url }}" class="btn-social btn-outline btn-kaggle">k</a>    
-                                {% else %}
-                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fas fab fa-fw fa-{{ network.title }}"></i></a>
+                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
                             </li>
 		                    {% endfor %}
                         </ul>
