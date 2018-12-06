@@ -10,6 +10,3 @@ category: mini-project
 description:Analog clock which shows system time
 ---
 
-###Skills Used
--Unity3D
--C#
