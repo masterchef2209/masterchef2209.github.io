@@ -7,6 +7,6 @@ alt: image-alt
 project-date: December 2018
 client: 
 category: Java,Swing,OOM,Eclipse
-description: Made using Java and Swing
+description: Made using Java and Swing (https://github.com/masterchef2209/Snake2DGame-OOMProject)
 
 ---
