@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 3
+date: 2014-07-16
+img: bot.png
+alt: image-alt
+project-date: December 2018
+client: 
+category: Python,PRAW,Bot,Reddit
+description: thanosquotesredditbot active on r/test which gives thanos quotes when it finds 'thanos quote' written in a comment and replies with '...as all things should be' when finds a comment with phrase 'perfectly balanced'. If bot is not working it is possible that heroku dynos have exhausted or it is currently disabled for making changes. (https://github.com/masterchef2209/thanosquotesredditbot). 
+---
